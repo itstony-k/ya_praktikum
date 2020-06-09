@@ -9,7 +9,7 @@
 
 **`pandas`**, **`numpy`**, **`matplotlib`**, **`seaborn`**, **`plotly`**
 
-Полный список использованных библиотек можно увидеть в [описании проектов] [https://github.com/itstony-k/ya_praktikum#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2]
+Полный список использованных библиотек можно увидеть в [описании проектов](https://github.com/itstony-k/ya_praktikum#%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2)
 ___
 Для быстрого перехода к проекту используйте таблицу
 
