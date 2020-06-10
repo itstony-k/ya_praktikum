@@ -1,9 +1,9 @@
 # This is my portfolio
 Добрый день!
 
-В этом репозитории находится подборка моих проектов, выполненных в рамках обучения в Яндекс.Практикуме.
+В этом репозитории находится подборка моих проектов, выполненных в рамках обучения в Яндекс.Практикуме. Проекты расположены в порядке их выполнения. Краткое описание проектов доступно [ниже](https://github.com/itstony-k/ya_praktikum#%D0%BA%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2)
 
-Большинство проектов выполнено в Jupyter Notebook.
+Большинство проектов выполнено в Jupyter Notebook
 
 Преимущественно использовал следующие библиотеки:
 
@@ -11,22 +11,22 @@
 
 Полный список использованных библиотек можно увидеть в [кратком описании проектов](https://github.com/itstony-k/ya_praktikum#%D0%BA%D1%80%D0%B0%D1%82%D0%BA%D0%BE%D0%B5-%D0%BE%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82%D0%BE%D0%B2)
 ___
-Для быстрого перехода к проекту используйте таблицу
+Для быстрого перехода в папку проекта используйте ссылку
 
 
 |     | Название проекта | Ссылка |
 | :-: | ---                               | ---                                             |
-|  1  | Исследование надежности заемщиков | [1_Borrowers_research/1_Borrowers_research.ipynb](https://github.com/itstony-k/ya_praktikum/blob/master/1_Borrowers_research "Исследование надежности заемщиков") |
-|  2  | Исследование объявлений о продаже квартир | [2_Research/2_Research_data_analysis.ipynb](https://github.com/itstony-k/ya_praktikum/blob/master/2_Research "Исследование объявлений о продаже квартир") |
-|  3  | Определение перспективного тарифа для телеком компании | [3_Best_tariff/3_Best_tariff.ipynb](https://github.com/itstony-k/ya_praktikum/blob/master/3_Best_tariff "Определение перспективного тарифа для телеком компании") |
-|  4  | Выявление закономерностей, определяющих успешность компьютерной игры | [4_Games/4_Games.ipynb](https://github.com/itstony-k/ya_praktikum/blob/master/4_Games "Выявление закономерностей, определяющих успешность компьютерной игры") |
-|  5  | Аналитика в авиакомпании | [5_Avia/5_Avia.ipynb](https://github.com/itstony-k/ya_praktikum/blob/master/5_Avia/5_Avia.ipynb "Аналитика в авиакомпании") |
-|  6  | Аналитика в Яндекс.Афише | [6_Yandex.Afisha/6_Yandex.Afisha.ipynb](https://github.com/itstony-k/ya_praktikum/blob/master/6_Yandex.Afisha "Аналитика в Яндекс.Афише") |
-|  7  | Приоритизация гипотез, запуск A/B-теста и анализ его результатов для интернет-магазина | [7_ABtest/7_ABtest.ipynb](https://github.com/itstony-k/ya_praktikum/blob/master/7_ABtest "Приоритизация гипотез, запуск A/B-теста и анализ его результатов для интернет-магазина") |
-|  8  | Рынок заведений общественного питания Москвы | [8_Moscow_rests/8_Moscow_rests.ipynb](https://github.com/itstony-k/ya_praktikum/blob/master/8_Moscow_rests "Рынок заведений общественного питания Москвы") |
-|  9  | Изучение поведения пользователей мобильного приложения стартапа продажи продуктов питания | [9_Users_behavior/9_Users_behavior.ipynb](https://github.com/itstony-k/ya_praktikum/blob/master/9_Users_behavior "Изучение поведения пользователей мобильного приложения стартапа продажи продуктов питания") |
-|  10  | Аналитика в Яндекс.Дзен | [1_Borrowers_research/1_Borrowers_research.ipynb](https://github.com/itstony-k/ya_praktikum/tree/master/10_Yandex.Zen "Аналитика в Яндекс.Дзен") |
-|  11  | Анализ данных фитнес-клуба | [1_Borrowers_research/1_Borrowers_research.ipynb](https://github.com/itstony-k/ya_praktikum/blob/master/1_Borrowers_research/1_Borrowers_research.ipynb "Анализ данных фитнес-клуба") |
+|  1  | Исследование надежности заемщиков | [/1_Borrowers_research](https://github.com/itstony-k/ya_praktikum/blob/master/1_Borrowers_research "Исследование надежности заемщиков") |
+|  2  | Исследование объявлений о продаже квартир | [/2_Research_data_analysis](https://github.com/itstony-k/ya_praktikum/blob/master/2_Research "Исследование объявлений о продаже квартир") |
+|  3  | Определение перспективного тарифа для телеком компании | [/3_Best_tariff](https://github.com/itstony-k/ya_praktikum/blob/master/3_Best_tariff "Определение перспективного тарифа для телеком компании") |
+|  4  | Выявление закономерностей, определяющих успешность компьютерной игры | [/4_Games](https://github.com/itstony-k/ya_praktikum/blob/master/4_Games "Выявление закономерностей, определяющих успешность компьютерной игры") |
+|  5  | Аналитика в авиакомпании | [/5_Avia](https://github.com/itstony-k/ya_praktikum/blob/master/5_Avia/5_Avia.ipynb "Аналитика в авиакомпании") |
+|  6  | Аналитика в Яндекс.Афише | [/6_Yandex.Afisha](https://github.com/itstony-k/ya_praktikum/blob/master/6_Yandex.Afisha "Аналитика в Яндекс.Афише") |
+|  7  | Приоритизация гипотез, запуск A/B-теста и анализ его результатов для интернет-магазина | [/7_ABtest](https://github.com/itstony-k/ya_praktikum/blob/master/7_ABtest "Приоритизация гипотез, запуск A/B-теста и анализ его результатов для интернет-магазина") |
+|  8  | Рынок заведений общественного питания Москвы | [/8_Moscow_rests](https://github.com/itstony-k/ya_praktikum/blob/master/8_Moscow_rests "Рынок заведений общественного питания Москвы") |
+|  9  | Изучение поведения пользователей мобильного приложения стартапа продажи продуктов питания | [/9_Users_behavior](https://github.com/itstony-k/ya_praktikum/blob/master/9_Users_behavior "Изучение поведения пользователей мобильного приложения стартапа продажи продуктов питания") |
+|  10  | Аналитика в Яндекс.Дзен | [/10_Yandex.Zen](https://github.com/itstony-k/ya_praktikum/tree/master/10_Yandex.Zen "Аналитика в Яндекс.Дзен") |
+|  11  | Анализ данных фитнес-клуба | [/11_Predictions](https://github.com/itstony-k/ya_praktikum/tree/master/11_Predictions "Анализ данных фитнес-клуба") |
 
 ___
 ## Краткое описание проектов
