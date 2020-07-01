@@ -61,3 +61,4 @@
 - *festival_name* — название фестиваля
 
 ### **Схема таблиц**
+![Схема таблиц](https://github.com/itstony-k/ya_praktikum/blob/master/05_Avia/db_scheme.jpg)
