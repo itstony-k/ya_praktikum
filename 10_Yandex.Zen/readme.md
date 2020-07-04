@@ -48,7 +48,7 @@
 
 Команда для *crontab* (скрипт будет запускаться каждый день в 4:15 *UTC+0*):
 
-```python
+```BASH
 15 4 * * * python3 -u -W ignore /home/code/zen_pipeline.py --start_dt=$(date +\%Y-\%m-\%d\ %H:%M:00 -d "1 day ago")
 --end_dt=$(date +\%Y-\%m-\%d\ %H:%M:00) >> /home/code/logs/zen_pipeline_$(date +\%Y-\%m-\%d).log 2>&1
 ```
