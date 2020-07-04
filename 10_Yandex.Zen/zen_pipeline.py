@@ -32,9 +32,12 @@ if __name__ == "__main__":
 		elif currentArgument in ("-e", "--end_dt"):
 			end_dt = currentValue
 
+	# грузим пароль
+	password = pd.read_csv('pswrd.txt').loc[0,'password']
+
     # параметры подключения к БД
-	db_config = {'user': 'my_user',         # имя пользователя
-	             'pwd': 'my_user_password', # пароль
+	db_config = {'user': 'postgres',        # имя пользователя
+	             'pwd': password, 			# пароль
 	             'host': 'localhost',       # адрес сервера
 	             'port': 5432,              # порт подключения
 	             'db': 'zen'}               # название базы данных
@@ -64,18 +67,20 @@ if __name__ == "__main__":
 	# визиты
 	dash_visits = log_raw.groupby(['item_topic', 'source_topic', 'age_segment', 'dt'], as_index=False)\
 	    .agg({'event_id':'count'})
-	
+
 	dash_visits.columns = ['item_topic', 'source_topic', 'age_segment', 'dt', 'visits']
 	# просмотры
 	dash_engagement = log_raw.groupby(['dt', 'item_topic', 'event', 'age_segment'], as_index=False)\
 	    .agg({'user_id':'nunique'})
-	
+
 	dash_engagement.columns = ['dt', 'item_topic', 'event', 'age_segment', 'unique_users']
+
 	# формируем словарь для цикла
-	table_list = {'dash_visits': dash_visits, 
+	table_list = {'dash_visits': dash_visits,
 	              'dash_engagement': dash_engagement}
 
 	for table_name, table_data in table_list.items():
+
 		query = '''DELETE FROM {}
 	               WHERE dt BETWEEN '{}'::TIMESTAMP AND '{}'::TIMESTAMP
 	            '''.format(table_name, start_dt, end_dt)
@@ -83,3 +88,5 @@ if __name__ == "__main__":
 
 	    # записываем агрегированные таблицы в базу данных
 		table_data.to_sql(name = table_name, con = engine, if_exists = 'append', index = False)
+
+	print('Succeed')

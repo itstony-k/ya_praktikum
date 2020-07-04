@@ -15,9 +15,12 @@ import plotly.graph_objs as go
 # задаём данные для отрисовки
 from sqlalchemy import create_engine
 
+# грузим пароль
+password = pd.read_csv('pswrd.txt').loc[0,'password']
+
 # параметры подключения к БД
-db_config = {'user': 'my_user',         # имя пользователя
-             'pwd': 'my_user_password', # пароль
+db_config = {'user': 'postgres',        # имя пользователя
+             'pwd': password,           # пароль
              'host': 'localhost',       # адрес сервера
              'port': 5432,              # порт подключения
              'db': 'zen'}               # название базы данных
@@ -61,8 +64,8 @@ dash_description = '''
 # задаём лейаут
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets, compress=False)
-app.layout = html.Div(children=[  
-    
+app.layout = html.Div(children=[
+
 	# название
 	html.H1(children = dash_title,
 				style={'font-weight': 'bold'}),
@@ -71,7 +74,7 @@ app.layout = html.Div(children=[
 	html.Label(dash_description),
 
 	html.Br(),
-	
+
 	# начало блока с фильтрами
 	html.Div([
 
@@ -98,10 +101,10 @@ app.layout = html.Div(children=[
 			dcc.Dropdown(
 				options = [{'label': x, 'value': x} for x in dash_visits['age_segment'].unique()],
 				value = dash_visits['age_segment'].unique(),
-				multi = True, 
+				multi = True,
 				id = 'age-dropdown'
 				),
-				
+
 		], className = 'six columns'),  # конец левого блока
 
 		# блок с пикером тем (правый блок)
@@ -153,7 +156,7 @@ app.layout = html.Div(children=[
 				id = 'pie-visits'
 				),
 
-			html.Br(),		
+			html.Br(),
 
 			html.Label('График средней глубины взаимодействия',
 				style={'textAlign': 'center', 'color': 'Black', 'font-weight': 'bold'}),
@@ -173,7 +176,7 @@ app.layout = html.Div(children=[
 
 # логика дашборда
 @app.callback(
-	
+
 	# выход
 	[Output('history-absolute-visits', 'figure'),
 	Output('pie-visits', 'figure'),
@@ -190,12 +193,13 @@ app.layout = html.Div(children=[
 def update_figures(selected_item_topics, selected_ages, start_date, end_date):
 
 	dash_visits_filtered = dash_visits.query(
-		'item_topic.isin(@selected_item_topics)\
-		 and dt >= @start_date and dt <= @end_date\
-		  and age_segment.isin(@selected_ages)'
+		'item_topic in @selected_item_topics and \
+         dt >= @start_date and dt <= @end_date and \
+         age_segment in @selected_ages'
 		)
-	
-	# scatter		
+
+
+	# scatter
 	scatter_agg = dash_visits_filtered.groupby(['item_topic', 'dt'])\
 			.agg({'visits': 'sum'})\
 			.reset_index()
@@ -216,9 +220,9 @@ def update_figures(selected_item_topics, selected_ages, start_date, end_date):
 
 	# bar
 	dash_engagement_filtered = dash_engagement.query(
-		  'item_topic.isin(@selected_item_topics) and \
+		  'item_topic in @selected_item_topics and \
 		  dt >= @start_date and dt <= @end_date \
-		  and age_segment.isin(@selected_ages)'
+		  and age_segment in @selected_ages'
 		  )
 
 	bar_agg = dash_engagement_filtered.groupby('event', as_index = False)\
@@ -251,6 +255,11 @@ def update_figures(selected_item_topics, selected_ages, start_date, end_date):
 		},
 
 		)
-	
+
+# запуск на удаленной машине
+# if __name__ == '__main__':
+# 	app.run_server(host='0.0.0.0', port=3000)
+
+# запуск на локальной машине
 if __name__ == '__main__':
-	app.run_server(host='0.0.0.0', port=3000)
+    app.run_server(debug=True)
