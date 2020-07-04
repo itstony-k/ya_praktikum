@@ -46,13 +46,20 @@
 
 Для презентации результатов работы был взят 1 час: с 18:00:00 по 19:00:00 2019-09-24
 
+___
+[Изучить код пайплайна](https://github.com/itstony-k/ya_praktikum/blob/master/10_Yandex.Zen/zen_pipeline.py)
+
 Команда для *crontab* (скрипт будет запускаться каждый день в 4:15 *UTC+0*):
 
 ```BASH
 15 4 * * * python3 -u -W ignore /home/code/zen_pipeline.py --start_dt=$(date +\%Y-\%m-\%d\ %H:%M:00 -d "1 day ago")
 --end_dt=$(date +\%Y-\%m-\%d\ %H:%M:00) >> /home/code/logs/zen_pipeline_$(date +\%Y-\%m-\%d).log 2>&1
 ```
+___
+___
+[Изучить код дашборда](https://github.com/itstony-k/ya_praktikum/blob/master/10_Yandex.Zen/zen_dash.py)
 
-[Посмотреть дашборд](https://github.com/itstony-k/ya_praktikum/blob/master/10_Yandex.Zen/Dash.pdf)
+[Посмотреть снимок дашборда](https://github.com/itstony-k/ya_praktikum/blob/master/10_Yandex.Zen/Dash.pdf)
+___
 
 [Перейти к презентации](https://github.com/itstony-k/ya_praktikum/blob/master/10_Yandex.Zen/Presentation.pdf)
