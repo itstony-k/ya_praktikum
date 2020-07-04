@@ -49,9 +49,10 @@
 Команда для *crontab*:
 
 ```python
-15 4 * * * python3 -u -W ignore /home/code/zen_pipeline.py --start_dt=$(date +\%Y-\%m-\%d\ %H:%M:00 -d "1 day ago") --end_dt=$(date +\%Y-\%m-\%d\ %H:%M:00) >> /home/code/logs/zen_pipeline_$(date +\%Y-\%m-\%d).log 2>&1
+15 4 * * * python3 -u -W ignore /home/code/zen_pipeline.py --start_dt=$(date +\%Y-\%m-\%d\ %H:%M:00 -d "1 day ago")
+--end_dt=$(date +\%Y-\%m-\%d\ %H:%M:00) >> /home/code/logs/zen_pipeline_$(date +\%Y-\%m-\%d).log 2>&1
 ```
 
 [Посмотреть дашборд](https://github.com/itstony-k/ya_praktikum/blob/master/10_Yandex.Zen/Dash.pdf)
 
-Перейти к презентации
+[Перейти к презентации](https://github.com/itstony-k/ya_praktikum/blob/master/10_Yandex.Zen/Presentation.pdf)
