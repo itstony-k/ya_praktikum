@@ -56,7 +56,7 @@ ___
 --end_dt=$(date +\%Y-\%m-\%d\ %H:%M:00) >> /home/code/logs/zen_pipeline_$(date +\%Y-\%m-\%d).log 2>&1
 ```
 ___
-___
+
 [Изучить код дашборда](https://github.com/itstony-k/ya_praktikum/blob/master/10_Yandex.Zen/zen_dash.py)
 
 [Посмотреть снимок дашборда](https://github.com/itstony-k/ya_praktikum/blob/master/10_Yandex.Zen/Dash.pdf)
