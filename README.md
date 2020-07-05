@@ -27,7 +27,7 @@ ___
 |  9  | Изучение поведения пользователей мобильного приложения стартапа продажи продуктов питания | [/09_Users_behavior](https://github.com/itstony-k/ya_praktikum/blob/master/09_Users_behavior "Изучение поведения пользователей мобильного приложения стартапа продажи продуктов питания") |
 |  10  | Аналитика в Яндекс.Дзен | [/10_Yandex.Zen](https://github.com/itstony-k/ya_praktikum/tree/master/10_Yandex.Zen "Аналитика в Яндекс.Дзен") |
 |  11  | Анализ данных фитнес-клуба | [/11_Predictions](https://github.com/itstony-k/ya_praktikum/tree/master/11_Predictions "Анализ данных фитнес-клуба") |
-|  12  | Финальный проект:<br> <span>&#8226;</span> A/B-тестирование<br> <span>&#8226;</span> Анализ для книжного стартапа (SQL)<br> <span>&#8226;</span> Поиск клиента с неоптимальными тарифами | [/12_Final_project](https://github.com/itstony-k/ya_praktikum/tree/master/12_Final_project) |
+|  12  | Финальный проект:<br> <span>&nbsp;</span><span>&#8226;</span> A/B-тестирование<br> <span>&nbsp;</span><span>&#8226;</span> Анализ для книжного стартапа (SQL)<br> <span>&nbsp;</span><span>&#8226;</span> Поиск клиента с неоптимальными тарифами | [/12_Final_project](https://github.com/itstony-k/ya_praktikum/tree/master/12_Final_project) |
 
 ___
 ## Краткое описание проектов
