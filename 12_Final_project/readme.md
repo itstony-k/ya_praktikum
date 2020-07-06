@@ -11,6 +11,8 @@ _Для перехода к описанию проекта используйт
 
 ## Описание
 
+<br>
+<br>
 ### A/B-тестирование
 ___
 
@@ -39,7 +41,8 @@ ___
 [Перейти к проекту](https://github.com/itstony-k/ya_praktikum/blob/master/12_Final_project/A:B-test/AB_test.ipynb)
 ___
 
-
+<br>
+<br>
 ### Анализ данных сервиса о книгах
 ___
 
@@ -65,7 +68,8 @@ ___
 [Перейти к проекту](https://github.com/itstony-k/ya_praktikum/blob/master/12_Final_project/SQL/Books_SQL.ipynb)
 ___
 
-
+<br>
+<br>
 ### Поиск клиента с неоптимальными тарифами
 ___
 
