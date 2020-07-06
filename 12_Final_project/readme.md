@@ -36,6 +36,10 @@ ___
 
 Проанализирована корректность проведения тестирования и полученные результаты. На основании анализа сделал вывод, что тест проведен некорректно и интерпретация результатов приведет к неверным выводам
 ___
+[Перейти к проекту](https://github.com/itstony-k/ya_praktikum/blob/master/12_Final_project/A:B-test/AB_test.ipynb)
+___
+
+
 ### Анализ данных сервиса о книгах
 ___
 
@@ -58,6 +62,10 @@ ___
 - Стоит предусмотреть систему вознаграждений пользователей за оставленные отзывы о книгах
 
 ___
+[Перейти к проекту](https://github.com/itstony-k/ya_praktikum/blob/master/12_Final_project/SQL/Books_SQL.ipynb)
+___
+
+
 ### Поиск клиента с неоптимальными тарифами
 ___
 
@@ -82,14 +90,10 @@ ___
 
 По результатам решения задачи подготовил презентацию с выводами и рекомендациями.
 
-```markdown
+___
 [Перейти к проекту](https://github.com/itstony-k/ya_praktikum/blob/master/12_Final_project/Non_optimal_tariff/Tariff.ipynb)
-```
+___
 
-```html
+___
 [Изучить презентацию](https://github.com/itstony-k/ya_praktikum/blob/master/12_Final_project/Non_optimal_tariff/Presentation.pdf)
-```
-
-<div class="alert alert-block alert-success">
-[Изучить презентацию](https://github.com/itstony-k/ya_praktikum/blob/master/12_Final_project/Non_optimal_tariff/Presentation.pdf)
-</div>
+___
