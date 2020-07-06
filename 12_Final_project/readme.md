@@ -89,3 +89,6 @@ ___
 ```html
 [Изучить презентацию](https://github.com/itstony-k/ya_praktikum/blob/master/12_Final_project/Non_optimal_tariff/Presentation.pdf)
 ```
+<div class="alert alert-block alert-success">
+Изучить презентацию](https://github.com/itstony-k/ya_praktikum/blob/master/12_Final_project/Non_optimal_tariff/Presentation.pdf)
+</div>
