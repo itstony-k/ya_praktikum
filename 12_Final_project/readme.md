@@ -45,6 +45,7 @@ ___
 
 ___
 Схема базы данных:
+
 ![Схема БД](https://github.com/itstony-k/ya_praktikum/blob/master/12_Final_project/SQL/files/base.png)
 
 ### Краткое описание проделанной работы и полученных результатов
