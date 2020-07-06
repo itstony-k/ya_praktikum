@@ -86,6 +86,6 @@ ___
 [Перейти к проекту](https://github.com/itstony-k/ya_praktikum/blob/master/12_Final_project/Non_optimal_tariff/Tariff.ipynb)
 ```
 
-```
+```html
 [Изучить презентацию](https://github.com/itstony-k/ya_praktikum/blob/master/12_Final_project/Non_optimal_tariff/Presentation.pdf)
 ```
